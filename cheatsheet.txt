@@ -1,0 +1,9 @@
+Four essential elements of Design Pattern:
+	1. The pattern name
+	2. The problem
+	3. The solution
+	4. The consequences
+
+The design patterns in this book are descriptions of 
+communicating objects and classes that are customized 
+to solve a general design problem in a particular context. 
