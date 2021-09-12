@@ -16,7 +16,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdapterPattern", "AdapterPattern", "{950CBEFE-F17E-4D82-9409-0E2EFCE8CC50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckAdapterSim", "DuckAdapterSim\DuckAdapterSim.csproj", "{54EA12F7-B002-4BBC-867F-F311BF7240E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuckAdapterSim", "DuckAdapterSim\DuckAdapterSim.csproj", "{54EA12F7-B002-4BBC-867F-F311BF7240E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroneAsDuck", "DroneAsDuck\DroneAsDuck.csproj", "{32B9F635-3211-41B2-BA7C-402C794F829D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,10 @@ Global
 		{54EA12F7-B002-4BBC-867F-F311BF7240E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54EA12F7-B002-4BBC-867F-F311BF7240E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54EA12F7-B002-4BBC-867F-F311BF7240E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B9F635-3211-41B2-BA7C-402C794F829D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B9F635-3211-41B2-BA7C-402C794F829D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B9F635-3211-41B2-BA7C-402C794F829D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B9F635-3211-41B2-BA7C-402C794F829D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{54D8414A-8C37-459D-ADE9-B10FAD9A04F6} = {5B918013-3133-4AE3-A9E3-C98819DB82C7}
 		{85028F1D-DF27-42F8-8626-C6B9E055CEDF} = {5B918013-3133-4AE3-A9E3-C98819DB82C7}
 		{54EA12F7-B002-4BBC-867F-F311BF7240E0} = {950CBEFE-F17E-4D82-9409-0E2EFCE8CC50}
+		{32B9F635-3211-41B2-BA7C-402C794F829D} = {950CBEFE-F17E-4D82-9409-0E2EFCE8CC50}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E937109A-E2A6-43A0-9EE1-5017FB4487E6}
