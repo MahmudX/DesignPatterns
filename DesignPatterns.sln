@@ -3,16 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckSimulator", "DuckSimulator\DuckSimulator.csproj", "{54D8414A-8C37-459D-ADE9-B10FAD9A04F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuckSimulator", "DuckSimulator\DuckSimulator.csproj", "{54D8414A-8C37-459D-ADE9-B10FAD9A04F6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy Pattern", "Strategy Pattern", "{5B918013-3133-4AE3-A9E3-C98819DB82C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneCameraApp", "PhoneCameraApp\PhoneCameraApp.csproj", "{85028F1D-DF27-42F8-8626-C6B9E055CEDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneCameraApp", "PhoneCameraApp\PhoneCameraApp.csproj", "{85028F1D-DF27-42F8-8626-C6B9E055CEDF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66455FAD-9F3A-498B-9421-9EEB08FF6722}"
 	ProjectSection(SolutionItems) = preProject
 		cheatsheet.txt = cheatsheet.txt
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdapterPattern", "AdapterPattern", "{950CBEFE-F17E-4D82-9409-0E2EFCE8CC50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckAdapterSim", "DuckAdapterSim\DuckAdapterSim.csproj", "{54EA12F7-B002-4BBC-867F-F311BF7240E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +32,10 @@ Global
 		{85028F1D-DF27-42F8-8626-C6B9E055CEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85028F1D-DF27-42F8-8626-C6B9E055CEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85028F1D-DF27-42F8-8626-C6B9E055CEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54EA12F7-B002-4BBC-867F-F311BF7240E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54EA12F7-B002-4BBC-867F-F311BF7240E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54EA12F7-B002-4BBC-867F-F311BF7240E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54EA12F7-B002-4BBC-867F-F311BF7240E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +43,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{54D8414A-8C37-459D-ADE9-B10FAD9A04F6} = {5B918013-3133-4AE3-A9E3-C98819DB82C7}
 		{85028F1D-DF27-42F8-8626-C6B9E055CEDF} = {5B918013-3133-4AE3-A9E3-C98819DB82C7}
+		{54EA12F7-B002-4BBC-867F-F311BF7240E0} = {950CBEFE-F17E-4D82-9409-0E2EFCE8CC50}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E937109A-E2A6-43A0-9EE1-5017FB4487E6}
