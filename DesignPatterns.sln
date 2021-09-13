@@ -18,11 +18,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter Pattern", "Adapter 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuckAdapterSim", "DuckAdapterSim\DuckAdapterSim.csproj", "{54EA12F7-B002-4BBC-867F-F311BF7240E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroneAsDuck", "DroneAsDuck\DroneAsDuck.csproj", "{32B9F635-3211-41B2-BA7C-402C794F829D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DroneAsDuck", "DroneAsDuck\DroneAsDuck.csproj", "{32B9F635-3211-41B2-BA7C-402C794F829D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer Pattern", "Observer Pattern", "{9E7387D3-6F5C-42B0-A284-4FBBB89A8B6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubjectSubscriber", "SubjectSubscriber\SubjectSubscriber.csproj", "{090EBC4A-D4EB-4278-B91A-A2D27D97B0B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubjectSubscriber", "SubjectSubscriber\SubjectSubscriber.csproj", "{090EBC4A-D4EB-4278-B91A-A2D27D97B0B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation", "WeatherStation\WeatherStation.csproj", "{7DF6E566-BBCD-4E38-9C7E-5F512906F830}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,10 @@ Global
 		{090EBC4A-D4EB-4278-B91A-A2D27D97B0B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{090EBC4A-D4EB-4278-B91A-A2D27D97B0B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{090EBC4A-D4EB-4278-B91A-A2D27D97B0B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF6E566-BBCD-4E38-9C7E-5F512906F830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF6E566-BBCD-4E38-9C7E-5F512906F830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF6E566-BBCD-4E38-9C7E-5F512906F830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF6E566-BBCD-4E38-9C7E-5F512906F830}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{54EA12F7-B002-4BBC-867F-F311BF7240E0} = {950CBEFE-F17E-4D82-9409-0E2EFCE8CC50}
 		{32B9F635-3211-41B2-BA7C-402C794F829D} = {950CBEFE-F17E-4D82-9409-0E2EFCE8CC50}
 		{090EBC4A-D4EB-4278-B91A-A2D27D97B0B8} = {9E7387D3-6F5C-42B0-A284-4FBBB89A8B6D}
+		{7DF6E566-BBCD-4E38-9C7E-5F512906F830} = {9E7387D3-6F5C-42B0-A284-4FBBB89A8B6D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E937109A-E2A6-43A0-9EE1-5017FB4487E6}
