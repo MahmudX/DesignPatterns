@@ -11,21 +11,21 @@ Elements of Reusable Object-Oriented Software
 
 ## Content
 
-* Strategy Pattern
-* Adapter Pattern
-* Observer Pattern
+* [Strategy Pattern](#strategy-pattern)
+* [Adapter Pattern](#adapter-pattern)
+* [Observer Pattern](#observer-pattern)
 
-### Strategy Pattern
+## Strategy Pattern
 
 - Duck Simulator
 - Phone Camera App
 
-### Adapter Pattern
+## Adapter Pattern
 
 - Duck Adapter Simulator
 - Drone As Duck
 
-### Observer Pattern
+## Observer Pattern
 
 - Subject Subscriber
 - Weather Station
